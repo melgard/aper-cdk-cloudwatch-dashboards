@@ -1,0 +1,439 @@
+{
+  "widgets": [
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 0,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "EC2 CPU Utilization"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 0,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "EC2 Network In"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 0,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "EC2 Network Out"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 0,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "EC2 Status Check"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 6,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "RDS CPU Utilization"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 6,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "RDS DB Connections"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 6,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "RDS Read IOPS"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 6,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "RDS Write IOPS"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 12,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "Lambda Throttles"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 12,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "Lambda Duration"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 12,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "Lambda Errors"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 12,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "Lambda Invocations"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 18,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ElasticCache CPU Utilization"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 18,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ElasticCache Evictions"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 18,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ElasticCache CurrConnections"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 18,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "CLB Request Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 24,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "CLB Healthy Host Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 24,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "CLB Unhealthy Host Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 24,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "CLB 5XX Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 24,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ALB Consumed LCUs"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 30,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ALB Request Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 30,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ALB Target Response Time"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 30,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ALB Active Connection Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 30,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "ALB 5XX Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 36,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "NLB Consumed LCUs"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 6,
+      "y": 36,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "NLB Processed Bytes"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 12,
+      "y": 36,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "NLB Active Flow Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 18,
+      "y": 36,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "NLB New Flow Count"
+      }
+    },
+    {
+      "height": 6,
+      "width": 6,
+      "type": "metric",
+      "x": 0,
+      "y": 42,
+      "properties": {
+        "view": "timeSeries",
+        "stacked": false,
+        "metrics": [],
+        "region": "us-east-1",
+        "period": 300,
+        "title": "NLB TCP Client Reset Count"
+      }
+    }
+  ]
+}

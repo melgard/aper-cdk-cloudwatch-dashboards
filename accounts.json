@@ -1,0 +1,27 @@
+[
+  {
+    "id": "612253195439",
+    "responsibility": "master",
+    "organizationalUnitId": ""
+  },
+  {
+    "id": "200980398650",
+    "responsibility": "monitor",
+    "organizationalUnitId": "ou-8jkv-4tqagssd"
+  },
+  {
+    "id": "220106897822",
+    "responsibility": "monitored",
+    "organizationalUnitId": "ou-8jkv-hyhyc9ns"
+  },
+  {
+    "id": "337976974077",
+    "responsibility": "monitored",
+    "organizationalUnitId": "ou-8jkv-dnwp7f0r"
+  },
+  {
+    "id": "193798471353",
+    "responsibility": "monitored",
+    "organizationalUnitId": "ou-8jkv-6b9h003u"
+  }
+]
